@@ -20,8 +20,13 @@ public class EphrataTemp {
         System.out.println("Average Daily Temperature: " + averageTemp);
 
         // Count and print out the number of days the temperature was below the average temperature
-
-
+        int below = 0;
+        for(int t = 0; t < hightemp.length; t++){
+            if(hightemp[t] < averageTemp){
+                below++;
+            }
+        }
+        System.out.println("Temperatures Below: " + below);
 
 
         // Using a For-Each Loop Count and print out the number of days the temperature was above the average temperature
