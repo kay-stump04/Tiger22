@@ -30,7 +30,7 @@ public class EphrataTemp {
 
 
         // Using a For-Each Loop Count and print out the number of days the temperature was above the average temperature
-
+       
 
         
         
